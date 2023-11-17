@@ -6,7 +6,7 @@
 
 ## Downloadables
 
-- https://github.com/hwchase17/chroma-langchain/blob/master/state_of_the_union.txt
+- <https://github.com/hwchase17/chroma-langchain/blob/master/state_of_the_union.txt>
 
 ## Virtual environment (venv)
 
@@ -24,8 +24,13 @@ Activate venv in bash-terminal:
 
 ## requirements.txt
 
-Good advice found here: https://learnpython.com/blog/python-requirements-file/
+Good advice found here: <https://learnpython.com/blog/python-requirements-file/>
 
     pip freeze > requirements.txt ... (creating file)
     pip install -r requirements.txt ... (installing from file)
     pip install -U -r requirements.txt ... (update file)
+
+## OpenAI Embeddings
+
+- <https://platform.openai.com/docs/api-reference/embeddings>
+- <https://platform.openai.com/docs/guides/embeddings/what-are-embeddings>
