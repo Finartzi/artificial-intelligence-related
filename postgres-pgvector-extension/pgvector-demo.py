@@ -18,4 +18,5 @@ print(len(texts))
 
 embeddings = OpenAIEmbeddings(api_key=environ.get("MY_OPEN_AI_API_KEY"), model="text-embedding-ada-002")
 vector = embeddings.embed_query('Testing the embedding model')
-vector
+#print(vector)
+print(len(vector))
