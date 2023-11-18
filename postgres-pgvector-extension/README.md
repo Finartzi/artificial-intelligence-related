@@ -6,7 +6,7 @@
 
 ## Downloadables
 
-- <https://github.com/hwchase17/chroma-langchain/blob/master/state_of_the_union.txt>
+<https://github.com/hwchase17/chroma-langchain/blob/master/state_of_the_union.txt>
 
 ## Virtual environment (venv)
 
@@ -32,5 +32,34 @@ Good advice found here: <https://learnpython.com/blog/python-requirements-file/>
 
 ## OpenAI Embeddings
 
-- <https://platform.openai.com/docs/api-reference/embeddings>
-- <https://platform.openai.com/docs/guides/embeddings/what-are-embeddings>
+<https://platform.openai.com/docs/api-reference/embeddings>
+<https://platform.openai.com/docs/guides/embeddings/what-are-embeddings>
+
+## Docker
+
+<https://docs.docker.com/engine/install/>
+<https://hub.docker.com/r/ankane/pgvector>
+ 
+    docker pull ankane/pgvector
+
+### Installing Docker on Fedora Linux
+
+<https://developer.fedoraproject.org/tools/docker/docker-installation.html>
+
+    sudo dnf install dnf-plugins-core
+
+    sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+
+    sudo dnf install docker-ce docker-ce-cli containerd.io
+
+    sudo systemctl start docker
+
+    sudo docker run hello-world
+
+> Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+Enabling Docker right at boot, type ..
+
+    sudo systemctl enable docker
+> Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /usr/lib/systemd/system/docker.service.

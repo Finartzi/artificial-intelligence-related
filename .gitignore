@@ -11,3 +11,4 @@ gen
 .env
 venv39/
 vscodevenv/
+.obsidian/
